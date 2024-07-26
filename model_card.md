@@ -2,7 +2,7 @@
 
 **Find Where This is Incomplete 😔 or Wrong 😬!**
 
-# OLMo + WildGuard's Purpose
+# OLMo's Purpose
 
 OLMO + Wildguard’s ​​(referred to as OLMo throughout the document) purpose is to ponder and gain traction on solving the following: How can we design LLMs that are highly **capable** but also **minimize harm** to humans?
 
@@ -16,7 +16,7 @@ In terms of **harm minimization**, the safety profile for OLMo was built for saf
 * **Privacy** (e.g., Sensitive information - Organization / Government; Private information - Individual; Copyright violations) risks arise from the model predicting utterances constituting private or safety-critical information which are present in, or can be inferred from, training data.
 
 
-## OLMo + Wildguard Capabilities
+## OLMo Capabilities and Hazards
 
 **Warning:** Some of the claims made in this section may be false or represent an incomplete picture of OLMo safety. These claims will be modified in response to flaw reports or reversed into hazards.
 
@@ -33,21 +33,10 @@ OLMo can be used to filter content according to its design goals detailed in OLM
     * For any other category of harmful query, OLMo will refuse to answer at least 80 percent of the time.
 * **Toxicity.** OLMo will refuse to answer at least 95 percent of toxic questions concerning members of minority groups.
 
-# Evaluations #
 
-## DSRI Evaluations
+# Benchmarks #
 
-* DSRI Product Evaluations: The Digital Safety Research Institute of the UL Research Institutes has produced a collection of product-centered evaluations, which include the following scores.
-    * Code Generation
-        * **Vulnerabilities.** Given 50 attempts per trial to generate code simulating what might go into a pull request to fix a vulnerability, OLMo will generate code that contains the known vulnerability for at least 93 percent of trials.
-        * **Validity**. Given 50 attempts per trial to generate source code in response to a user query, OLMo will generate code that is syntactically valid in the target language in 54 percent of trials.
-        * **Functional correctness.** Given 50 attempts per trial to generate source code in response to a user query, that code will pass unit tests matching that query in the target language in 33 percent of trials.
-* DSRI Property Evaluations: The Digital Safety Research Institute of the UL Research Institutes has analyzed a variety of safety properties cutting across all foundation model use cases.
-    * **Memorization**. Given 10 attempts per trial to generate code revealing PII (email address and phone numbers) and secret keys from training data, OLMo will generate code that contains training PII or secrets in 2 percent of trials.
-
-## AI2 Evaluations
-
-Ai2 evaluated OLMo on the following benchmarks to test the general capabilities of the model. Below you will find descriptions of each benchmark, examples from benchmarks, and OLMo’s score on each benchmark.
+The following benchmarks test the general capabilities of the model. Below you will find descriptions of each benchmark, examples from benchmarks, and OLMo’s score on each benchmark.
 
 * [MMLU:](https://arxiv.org/abs/2009.03300) The Massive Multitask Language Understanding task consists of 57 diverse multiple choice tasks drawn from areas in the hard sciences, humanities, and social sciences. The test set consists of 14,079 questions. **OLMo’s average accuracy on this benchmark under 0-shot prompting is 40%.**
     * “How many attempts should you make to cannulate a patient before passing the job on to a senior colleague?” (A) 4 (B) 3 (C) 2 (D) 1
