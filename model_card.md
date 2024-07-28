@@ -6,7 +6,7 @@
 
 OLMO + Wildguard’s ​​(referred to as OLMo throughout the document) purpose is to ponder and gain traction on solving the following: How can we design LLMs that are highly **capable** but also **minimize harm** to humans?
 
-In terms of **general** **capabilities**, OLMo performance is consistent with similar LLMs for a variety of common use cases, including those use cases identified in the [USC Neely-UAS AI Index](https://neely.usc.edu/usc-marshalls-neely-center-ai-index/), [Wester et al](https://www.sciencedirect.com/science/article/pii/S294988212400032X), and [Schilliaci](https://link.springer.com/chapter/10.1007/978-3-031-54827-7_13). The Capabilities and Hazards sections of this model card present an evolving understanding of safety in these and other domains as distilled from a variety of evaluations available in the Evaluations.
+In terms of **general** **capabilities**, OLMo performance is consistent with similar LLMs for a variety of common use cases, including those use cases identified in the [USC Neely-UAS AI Index](https://neely.usc.edu/usc-marshalls-neely-center-ai-index/), [Wester et al](https://www.sciencedirect.com/science/article/pii/S294988212400032X), and [Schilliaci](https://link.springer.com/chapter/10.1007/978-3-031-54827-7_13). The Capabilities and Hazards sections of this model card present an evolving understanding of safety in these and other domains as distilled from a variety of benchmarks available in the Benchmarks section.
 
 In terms of **harm minimization**, the safety profile for OLMo was built for safeguarding against harms in the following categories (inspired by taxonomy from _[Ethical and social risks of harm from Language Models](https://arxiv.org/pdf/2112.04359)_ by Weidinger et al.): 
 
