@@ -93,8 +93,8 @@ Maintain a record of which report led to which model card change, then issue pay
 
 The following fields will be set upon acceptance.
 
-Is_Adversarial_Attack: Leave this blank if the submission is _not_ presuming the user is trying to attack the system, otherwise put any string into the field.  
-Is_Use_Case_hazard: Leave this blank if the submission is _not_ looking at how the user may be harmed by the system when using it, otherwise put any string into the field.  
+Is_Adversarial_Attack: Leave this blank if the submission is _not_ presuming the user is trying to attack the system, otherwise put a string into the field. The content of the string should be any details of the attack that are relevant for adjudication or retrospective analysis. 
+Is_Use_Case_hazard: Leave this blank if the submission is _not_ looking at how the user may be harmed by the system when using it, otherwise put a string into the field. The content of the string should be any details of the use case and hazard that are relevant for adjudication or retrospective analysis.
 
 ## (7) Issuing Payment ##
 
