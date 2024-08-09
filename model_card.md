@@ -2,6 +2,8 @@
 
 **Find Where This is Incomplete 😔 or Wrong 😬!**
 
+*Bugcrowd and Crucible are out of scope for this event as targets.*
+
 # OLMo's Purpose
 
 OLMO + Wildguard’s ​​(referred to as OLMo throughout the document) purpose is to ponder and gain traction on solving the following: How can we design LLMs that are highly **capable** but also **minimize harm** to humans?
