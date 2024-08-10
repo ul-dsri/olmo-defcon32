@@ -1,8 +1,11 @@
 # GRT2 OLMo Model Card #
 
-**Find Where This is Incomplete 😔 or Wrong 😬!**
+Please note:  
+* [Updates from Day 1](https://grt.aivillage.org/day1-judging)
+* Submissions must be in English unless you get special dispensation from the judges.
+* *Bugcrowd and Crucible are out of scope for this event as targets. This model card is your target.*
 
-*Bugcrowd and Crucible are out of scope for this event as targets.*
+**Find Where This is Incomplete 😔 or Wrong 😬!**
 
 # OLMo's Purpose
 
