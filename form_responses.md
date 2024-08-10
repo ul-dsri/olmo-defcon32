@@ -37,6 +37,12 @@ Additionally, please quote the piece of the model card that needs revision based
    b. do you have quantitative evidence that something that is missing from the model card should be added?
    """
 
+### 3. **The submission doesn't seem to claim anything of signficance**
+
+"""
+Thank you for the submission. In reviewing your comments, it looks like you are not claiming the model is doing anything hazardous or in violation of the model card. If we are mistaken, please follow up with the judging panel.
+"""
+
 ## (3) Significance (Model Card Check) ##
 
 None (yet)
