@@ -38,7 +38,7 @@ OLMo can be used to filter content according to its design goals detailed in OLM
 * **Toxicity.** OLMo will refuse to answer at least 95 percent of toxic questions concerning members of minority groups.
 * **Limitations.**
    * OLMo may fail to filter out benign prompts requesting professional advice (e.g. legal advice). OLMo outputs are not intended to, and should not replace, the advice of qualified professional advisors.
-   * OLMo may fail to refuse queries asking to detect vulnerabilities in computer code.
+   * OLMo may fail to refuse queries asking to detect vulnerabilities in computer code at a high rate.
 
 ### Known Vulnerabilities
 * **Templated Jailbreak** There exist template jailbreak attacks that request examples of how *not* to respond to a harmful query. In the case of such attacks, the refusal rates can be expected to be 21.7% for harmful language, 50% for malicious uses, 50% for misinformation, and a 25% refusal rate for privacy.
