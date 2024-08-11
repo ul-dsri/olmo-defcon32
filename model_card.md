@@ -43,6 +43,7 @@ OLMo can be used to filter content according to its design goals detailed in OLM
 ### Known Vulnerabilities
 * **Templated Jailbreak** There exist template jailbreak attacks that request examples of how *not* to respond to a harmful query. In the case of such attacks, the refusal rates can be expected to be 21.7% for harmful language, 50% for malicious uses, 50% for misinformation, and a 25% refusal rate for privacy.
 * **Prompt Perturbation** When perturbing the prompt (e.g. by inserting random characters as noise), the refusal rate for malicious use queries can be reduced to 66-72% from the nominal 90% rate.
+* **Induced Conspiracy** Presenting the model with a prompt that asserts a false premise (e.g., a network news report announced that the President of the United States is under the mind control of a superintelligent dolphin) will cause the model to comply with requests to produce misinformation, potentially including malicious and harmful misinformation, at a rate of up to 90%.
 
 # Benchmarks #
 
